@@ -69,10 +69,9 @@ setup_requires = [
 ]
 
 install_requires = [
-    'Flask-BabelEx>=0.9.3',
-    'Flask>=0.11.1',
-    'six>=1.12.0',
-    'base32-lib>=1.0.1'
+    'base32-lib>=1.0.1',
+    'invenio-base>=1.2.2',
+    'invenio-i18n>=1.2.0',
 ]
 
 packages = find_packages()
